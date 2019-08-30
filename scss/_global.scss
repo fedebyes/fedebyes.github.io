@@ -2,8 +2,13 @@
 
 body {
   @include body-font;
-  padding-top: 54px;
+  /*padding-top: 54px;*/
+
   color: $gray-600;
+  .page-top{
+
+
+  }
 }
 @media (min-width: 992px) {
   body {
@@ -11,6 +16,10 @@ body {
     padding-left: $sidebar-base-width;
   }
 }
+
+
+
+
 
 h1,
 h2,
@@ -21,7 +30,8 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $gray-800;
+  color: $white;
+
 }
 
 h1 {

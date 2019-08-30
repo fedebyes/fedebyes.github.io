@@ -9,6 +9,20 @@ section.resume-section {
     }
   }
 }
+section.name{
+  text-align: center;
+
+
+  background-color: $gray-900;
+
+
+  .name-item{
+      
+      height: 100vh;
+      text-align: center;
+  }
+
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
