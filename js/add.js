@@ -10,7 +10,7 @@ var tag="<span id=\"type-it-sub\">"
 var try1="I'm a software engeneer";
 var try2="inear";
 var try3="enere";
-var try4="I solve computer problems"
+var try4=" can solve computer problems"
 var myTypeItInstance = new TypeIt('#type-it', {
 
   startDelay:2000,
@@ -50,7 +50,7 @@ myTypeItInstanceSub
 .delete(5)
 .type(try3)
 .pause(1000)
-.delete(23)
+.delete(22)
 .type(try4)
 .options({
   startDelay:0
