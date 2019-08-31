@@ -28,8 +28,8 @@ h4,
 h5,
 h6 {
   @include heading-font;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 400;
+  /*text-transform: uppercase;*/
   color: $white;
 
 }
