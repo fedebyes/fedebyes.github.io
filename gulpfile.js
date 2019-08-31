@@ -12,6 +12,8 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
+var jshint = require('gulp-jshint');
+var concat = require('gulp-concat');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -36,6 +38,9 @@ function browserSync(done) {
   done();
 }
 
+
+
+
 // BrowserSync reload
 function browserSyncReload(done) {
   browsersync.reload();
@@ -49,6 +54,9 @@ function clean() {
 
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
+  //TypeIt
+  var bootstrap = gulp.src('./node_modules/typeit/dist/**/*')
+    .pipe(gulp.dest('./vendor/typeit'));
   // Bootstrap
   var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
     .pipe(gulp.dest('./vendor/bootstrap'));
