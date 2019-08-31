@@ -7,7 +7,22 @@
 body {
   font-family: 'Open Sans Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   /*padding-top: 54px;*/
-  color: #868e96;
+  background-color: #212529;
+}
+
+body #particles-js {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #212529;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 @media (min-width: 992px) {
@@ -166,7 +181,6 @@ section.resume-section .resume-item .resume-date {
 
 section.name {
   text-align: center;
-  background-color: #212529;
 }
 
 section.name .name-item {
