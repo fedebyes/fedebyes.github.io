@@ -8,9 +8,68 @@ body {
 background-color: $gray-900;
 
   .page-top{
-    
+
 
   }
+
+  .preloader-site {
+      overflow: hidden;
+  }
+
+  .preloader-wrapper {
+      height: 100%;
+      width: 100%;
+      background: $gray-900;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999999;
+  }
+
+  .preloader-wrapper .preloader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      
+    }
+
+      .lds-ring {
+        display: inline-block;
+        position: relative;
+        width: 64px;
+        height: 64px;
+      }
+      .lds-ring div {
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        margin: 6px;
+        border: 6px solid #fff;
+        border-radius: 50%;
+        animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+        border-color: #fff transparent transparent transparent;
+      }
+      .lds-ring div:nth-child(1) {
+        animation-delay: -0.45s;
+      }
+      .lds-ring div:nth-child(2) {
+        animation-delay: -0.3s;
+      }
+      .lds-ring div:nth-child(3) {
+        animation-delay: -0.15s;
+      }
+      @keyframes lds-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
   #particles-js {
     width: 100% !important;
     height: 100% !important;
@@ -22,32 +81,17 @@ background-color: $gray-900;
     z-index: -1;
     top: 0; right: 0; bottom: 0; left: 0;
   }
-  #type-it {
 
-    @include heading-font;
-    font-weight: 400;
-    /*text-transform: uppercase;*/
-    color: $white;
-    font-size: 2.5rem;
-
-
-  }
-
-  #type-it-sub {
-
-    @include heading-font;
-    font-weight: 400;
-    /*text-transform: uppercase;*/
-    color: $white;
-    font-size: 1.5rem;
-
-  }
 }
+
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: $sidebar-base-width;
   }
+
 }
 
 
@@ -70,6 +114,11 @@ h6 {
 h1 {
   font-size: 4.5rem;
   line-height: 5.0rem;
+
+
+
+
+
 }
 
 h2 {
@@ -120,10 +169,4 @@ p.lead {
       color: $primary;
     }
   }
-}
-
-
-.propic {
-  height: 15rem;
-  width: 15rem;
 }
