@@ -30,8 +30,7 @@ body #type-it {
   font-weight: 400;
   /*text-transform: uppercase;*/
   color: #fff;
-  font-size: 4.5rem;
-  line-height: 5.0rem;
+  font-size: 3rem;
 }
 
 body #type-it-sub {
@@ -39,7 +38,7 @@ body #type-it-sub {
   font-weight: 400;
   /*text-transform: uppercase;*/
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 992px) {
@@ -200,13 +199,17 @@ section.name {
   text-align: center;
 }
 
-section.name .name-item {
-  height: 100vh;
-}
-
-@media (min-width: 768px) {
+@media (min-width: 200px) {
   section.name {
     min-height: 100vh;
+  }
+  section.name .name-item {
+    min-height: 100vh;
+  }
+  section.name .name-item .propic {
+    max-width: 20rem;
+    max-height: 20rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
 }
 

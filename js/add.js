@@ -39,7 +39,7 @@ var myTypeItInstanceSub = new TypeIt('#type-it-sub', {
     deleteSpeed:100,
     startDelay:delay,
     loop: true,
-    loopDelay:50000
+    loopDelay:90000
 });
 myTypeItInstanceSub
 .type(try1)

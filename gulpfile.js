@@ -54,6 +54,9 @@ function clean() {
 
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
+  //ParticlesJS
+  var bootstrap = gulp.src('./node_modules/particles.js/**/*')
+    .pipe(gulp.dest('./vendor/particles.js'));
   //TypeIt
   var bootstrap = gulp.src('./node_modules/typeit/dist/**/*')
     .pipe(gulp.dest('./vendor/typeit'));

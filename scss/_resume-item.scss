@@ -11,19 +11,27 @@ section.resume-section {
 }
 section.name{
   text-align: center;
+
+
   .name-item{
-height: 100vh;
 
 
 
   }
 
 }
-@media (min-width: 768px) {
+@media (min-width: 200px) {
   section.name {
     min-height: 100vh;
     .name-item {
+      min-height: 100vh;
+      .propic{
 
+            max-width: 20rem;
+            max-height: 20rem;
+            border: 0.5rem solid fade-out($white, 0.8);
+
+      }
     }
   }
 }
