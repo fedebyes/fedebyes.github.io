@@ -12,7 +12,7 @@ $(window).on('load',function() {
     var try1="I'm a software engeneer";
     var try2="inear";
     var try3="enere";
-    var try4=" can solve computer problems"
+    var try4=" can write computer programs"
     var myTypeItInstance = new TypeIt('#type-it', {
 
       startDelay:2000,
