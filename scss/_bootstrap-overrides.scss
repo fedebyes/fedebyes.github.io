@@ -1,16 +1,16 @@
-.bg-primary {
-  background-color: $primary !important;
+.bg-cvblue {
+  background-color: $cvblue !important;
 }
 
-.text-primary {
-  color: $primary !important;
+.text-cvblue {
+  color: $cvblue !important;
 }
 
 a {
-  color: $primary;
+  color: $cvblue;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($cvblue, 15%);
   }
 }
