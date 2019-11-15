@@ -43,7 +43,7 @@
     "jquery": "3.4.1",
     "jquery.easing": "^1.4.1",
     "particles.js": "^2.0.0",
-    "typeit": "^6.0.3"
+    "typeit": "^6.1.1"
   },
   "deprecated": false,
   "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
@@ -60,7 +60,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "jshint": "^2.10.2",
+    "jshint": "^2.10.3",
     "merge-stream": "2.0.0"
   },
   "homepage": "https://startbootstrap.com/template-overviews/resume",

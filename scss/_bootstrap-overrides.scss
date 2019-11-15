@@ -1,10 +1,13 @@
-.bg-cvblue {
+/*.bg-primary {
   background-color: $cvblue !important;
+}*/
+.bg-dark {
+  background-color: $gray-900 !important;
 }
 
-.text-cvblue {
+/*.text-primary {
   color: $cvblue !important;
-}
+}*/
 
 a {
   color: $cvblue;

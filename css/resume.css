@@ -182,7 +182,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -329,14 +329,16 @@ section.name {
   }
 }
 
-.bg-cvblue {
-  background-color: #104a8d !important;
+/*.bg-primary {
+  background-color: $cvblue !important;
+}*/
+.bg-dark {
+  background-color: #212529 !important;
 }
 
-.text-cvblue {
-  color: #104a8d !important;
-}
-
+/*.text-primary {
+  color: $cvblue !important;
+}*/
 a {
   color: #104a8d;
 }
