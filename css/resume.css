@@ -8,6 +8,7 @@ body {
   font-family: 'Open Sans Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   /*padding-top: 54px;*/
   background-color: #212529;
+  color: #fff;
 }
 
 body .preloader-site {
@@ -248,7 +249,7 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  max-width: 100rem;
 }
 
 section.resume-section .resume-item .resume-date {
