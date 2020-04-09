@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 [object Object]
+ * Copyright 2013-2020 [object Object]
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
