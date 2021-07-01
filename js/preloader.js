@@ -9,7 +9,7 @@ $(window).on('load',function() {
     $('body').removeClass('preloader-site');
     var hello="Hello, my name is <br><span class=\"text-primary\">Federico  Bacci</span>";
     var tag="<span id=\"type-it-sub\">"
-    var try1="I'm a software engeneer";
+    var try1="I'm a machine learning engeneer";
     var try2="inear";
     var try3="enere";
     var try4=" can write computer programs"
@@ -52,7 +52,7 @@ $(window).on('load',function() {
     .delete(5)
     .type(try3)
     .pause(1000)
-    .delete(22)
+    .delete(30)
     .type(try4)
     .options({
       startDelay:0
